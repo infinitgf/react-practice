@@ -1,0 +1,51 @@
+.panel-light,
+.panel-dark {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 20px;
+}
+.panel-light {
+  color: #222;
+  background: #aaa;
+}
+
+.panel-dark {
+  color: #fff;
+  background: #282c34;
+}
+
+.button-light,
+.button-dark {
+  border: 1px solid #777 !important;
+  margin: 0 8px 35px;
+  width: 5rem;
+}
+
+.button-dark {
+  color: #fff;
+}
+
+.button-light {
+  color: #222 !important;
+}
+
+.toggle-light,
+.toggle-dark {
+  cursor: pointer;
+  position: absolute;
+  top: 22%;
+  left: 9%;
+  z-index: 1;
+}
+
+.toggle-light {
+  color: #222;
+}
+.toggle-dark {
+  color: #fff;
+}
+
+label input {
+  margin-right: 5px;
+  cursor: pointer;
+}
