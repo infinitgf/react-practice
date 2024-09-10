@@ -11,13 +11,13 @@ export default function UseContextTheme() {
     <ThemeContext.Provider value={theme}>
       <label className={className}>
         <input
+          id="checkmark"
           type="checkbox"
           checked={theme === "dark"}
           onChange={(e) => {
             setTheme(e.target.checked ? "dark" : "light");
           }}
         />
-        dark
       </label>
       <Form />
     </ThemeContext.Provider>

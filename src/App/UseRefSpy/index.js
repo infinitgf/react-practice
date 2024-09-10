@@ -13,6 +13,7 @@ export default function UseRefSpy() {
     <div>
       <h1>Secret Spy</h1>
       <input
+        id="spyy"
         type="password"
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}

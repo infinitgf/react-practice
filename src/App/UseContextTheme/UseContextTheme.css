@@ -8,7 +8,6 @@
   color: #222;
   background: #aaa;
 }
-
 .panel-dark {
   color: #fff;
   background: #282c34;
@@ -20,32 +19,42 @@
   margin: 0 8px 35px;
   width: 5rem;
 }
-
 .button-dark {
   color: #fff;
 }
-
 .button-light {
   color: #222 !important;
 }
 
 .toggle-light,
 .toggle-dark {
+  z-index: 1;
   cursor: pointer;
   position: absolute;
-  top: 22%;
-  left: 9%;
-  z-index: 1;
+  top: 6rem;
+  left: 6rem;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.toggle-light{
+  background: transparent;
+  border: 2px solid aquamarine;
+}
+.toggle-light:hover{
+  background-color: #282c34;
+  border: 2px solid #282c34;
+}
+.toggle-dark{
+  background: transparent;
+  border: 2px solid aquamarine
+}
+.toggle-dark:hover{
+  background-color: #aaa;
+  border: 2px solid #aaa;
 }
 
-.toggle-light {
-  color: #222;
-}
-.toggle-dark {
-  color: #fff;
-}
-
-label input {
-  margin-right: 5px;
-  cursor: pointer;
-}
+#checkmark{display: none;}
